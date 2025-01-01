@@ -1,0 +1,25 @@
+🎮 Tic Tac Toe Game in Flutter | Mobile App Development
+🚀 Project Overview: I recently developed a Tic Tac Toe game using Flutter and Dart, designed for both iOS and Android platforms. The app provides a fun and interactive way for users to enjoy the classic two-player game of Tic Tac Toe, with a clean and intuitive UI, real-time gameplay, and a simple scoring system.
+🛠 Key Features:
+*Interactive Grid: A dynamic 3x3 grid where players can tap on cells to place their moves ("X" or "O").
+*Player Turns: The app alternates between two players ("X" and "O") with a visual indication of whose turn it is.
+*Winner Detection: The app checks for a winner after every move, ensuring that the first player to align three of their marks in a row (horizontally, vertically, or diagonally) wins.
+*Score Tracking: Keeps track of individual player scores and displays them after each game.
+*Draw Detection: If the grid is filled without a winner, the app detects a draw and prompts the users to play again.
+*Smooth User Interface: Developed with Flutter, providing a smooth and visually appealing experience for both mobile platforms.
+🔧 Technologies Used:
+*Flutter SDK: For building a cross-platform mobile application.
+*Dart Programming Language: To implement the game logic and state management.
+*Material Design: For a clean, consistent design across both Android and iOS.
+💡 Why Flutter?
+*Cross-Platform: Flutter's single codebase ensures that the app works seamlessly on both Android and iOS devices.
+*Fast Development: The hot reload feature of Flutter made it easy to quickly iterate on the design and functionality, speeding up the development process.
+*Rich UI: Flutter allows for beautiful and responsive UIs, which made it perfect for creating the Tic Tac Toe game's user interface.
+🏆 Challenges Overcome:
+*State Management: Managing the state of the game (who's turn it is, current score, etc.) required a robust approach, and I leveraged Flutter's built-in StatefulWidget to achieve this seamlessly.
+*Winner Logic: Ensuring that the winner is detected correctly across different combinations of rows, columns, and diagonals required careful attention to the game's logic.
+*User Interface: Designing a simple yet visually appealing interface for a game with minimalistic elements while ensuring the app was responsive across different screen sizes.
+📱 App Screenshots:
+*Main Menu: Displays the current score and allows players to start a new game.
+*Game Screen: The 3x3 grid where players place their marks.
+*Winner/Draw Dialog: A pop-up dialog that announces the winner or if the game results in a draw.
